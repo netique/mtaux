@@ -1,6 +1,6 @@
 Package: mtaux
 Title: Master thesis auxiliary package
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: 
     c(person(given = "Jan",
              family = "Netik",
