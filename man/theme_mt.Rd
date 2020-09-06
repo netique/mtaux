@@ -12,7 +12,6 @@ theme_mt(
   margin_side = 6,
   margin_bottom = 6,
   plot.title.position = "plot",
-  axis.title = ggplot2::element_blank(),
   multiplot = FALSE,
   ...
 )
@@ -29,11 +28,11 @@ theme_mt(
 
 \item{plot.title.position}{where to align the title. Either "plot" (the default, difference from \code{theme()} default) or \code{"panel"}.}
 
-\item{axis.title}{same as in theme(), but with a default of \code{element_blank()}.}
-
 \item{multiplot}{if set to TRUE, provides better styling for small multiples created using \verb{facet_*}.}
 
 \item{...}{Other parameters to be passed to \code{theme()}.}
+
+\item{axis.title}{same as in theme(), but with a default of \code{element_blank()}.}
 }
 \value{
 a ggtheme object

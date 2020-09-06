@@ -78,7 +78,7 @@ font_r_light <- "Roboto Light"
 #'   other font you wish to use in other programs.
 #' @family Font helpers and shortcuts
 #' @export
-import_roboto <- function() {
+import_fonts <- function() {
 
   r_font_dir <- system.file("fonts", "roboto", package="mtaux")
 
@@ -86,26 +86,8 @@ import_roboto <- function() {
 
   usethis::ui_done("Done registering Roboto with R.")
   usethis::ui_todo("Now go to {usethis::ui_path(r_font_dir)} and install the fonts onto your system.")
-}
-
-
-#' Import fonts needed for theme_mt defaults
-#'
-#' Imports Roboto and Roboto Condensed. Draws on the hrbrthemes package.
-#'
-#' @family Font helpers and shortcuts
-#' @export
-#'
-import_fonts <- function() {
-  import_roboto()
-  suppressMessages(hrbrthemes::import_roboto_condensed())
-  r_font_dir <- system.file("fonts", "roboto", package="mtaux")
-  rc_font_dir <- system.file("fonts", "roboto-condensed", package="hrbrthemes")
-  usethis::ui_done("Done registering Roboto Condensed with R.")
-  usethis::ui_todo("Now go to {usethis::ui_path(rc_font_dir)} and install the fonts onto your system.")
   usethis::ui_info("On Windows 7 and 10, you can install fonts by right-clicking the font file and clicking Install.")
 }
-
 
 #' Mqke ggplot2 use chosen font in geom_text/label
 #'
