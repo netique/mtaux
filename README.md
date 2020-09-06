@@ -6,8 +6,7 @@
 <!-- badges: start -->
 
 ![GitHub release (latest by date including
-pre-releases)](https://img.shields.io/github/v/release/netique/mtaux?include_prereleases)
-
+pre-releases)](https://img.shields.io/github/v/release/netique/mtaux.svg?include_prereleases)
 <!-- badges: end -->
 
 Auxiliary package for master thesis purposes.
