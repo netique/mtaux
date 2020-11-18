@@ -17,6 +17,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/netique/mtaux.svg?include_prereleases)
+[![R build status](https://github.com/netique/mtaux/workflows/R-CMD-check/badge.svg)](https://github.com/netique/mtaux/actions)
 <!-- badges: end -->
 
 Auxiliary package for master thesis purposes.
